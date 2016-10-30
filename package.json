@@ -5,13 +5,14 @@
   "engines": {
     "node": "5.9.1"
   },
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon src/app.js"
   },
   "dependencies": {
     "ejs": "2.4.1",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "phantom": "^3.0.2"
   },
   "repository": {
     "type": "git",
