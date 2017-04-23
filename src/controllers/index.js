@@ -3,6 +3,7 @@ var phantom = require('phantom');
 exports.index = function(req, res) {
   var profiles = [
     'https://github.com/celso-wo',
+    'https://github.com/Todev3',
     'https://github.com/felipebernardes',
     'https://github.com/GabrielJacquier',
     'https://github.com/mikemajesty',
